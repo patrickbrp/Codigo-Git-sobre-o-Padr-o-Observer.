@@ -1,0 +1,19 @@
+package com.pattern.observer;
+
+import ...
+
+@SpringBootApplication
+
+public class ObserverApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ObserverApplication.class, args);
+
+        BigDecimal valorInicial = new BigDecimal(val: "1100.00");
+        BigDecimal desconto = new BigDecimal(val: "10.00");
+        Gerente gerente = new Gerente(nome "Richard");
+        Estoque estoque = new Estqoue(produto "Bermuda", valorInicial, desconto);
+        estoque.attach(gerente);
+        estoque.setValor(valorInicial);
+    }
+}
+
